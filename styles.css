@@ -12,12 +12,13 @@ body {
 
 header {
     background: white;
-    padding: 20px;
+    padding: 60px;
 }
 
 header > h1 {
     color: #25272E;
     text-align:  center;
+    font-size: 70px;
     font-family: Asap, sans-serif;
 }
 
