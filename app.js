@@ -25,9 +25,10 @@ function win(userChoice, computerChoice) {
     userScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
-    const smallUserWord = "user".fontsize(3).sub()
-    const smallCompWord = "comp".fontsize(3).sub()
+    const smallUserWord = "user".fontcolor("red").fontsize(3).sub()
+    const smallCompWord = "comp".fontcolor("blue").fontsize(3).sub()
     result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} beats ${convertToWord(computerChoice)}${smallCompWord} You win!`;
+    
 }
 
 function lose(userChoice, computerChoice) {
@@ -40,8 +41,10 @@ function lose(userChoice, computerChoice) {
 }
 
 
-function draw() {
-    console.log("DRAW");
+function draw(userChoice, computerChoice) {
+    const smallUserWord = "user".fontcolor("red").fontsize(3).sub()
+    const smallCompWord = "comp".fontcolor("blue").fontsize(3).sub()
+    result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} equal ${convertToWord(computerChoice)}${smallCompWord} Its a draw`;
 }
 
 
