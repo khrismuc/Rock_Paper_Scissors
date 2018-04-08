@@ -34,8 +34,8 @@ function lose(userChoice, computerChoice) {
     computerScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
-    const smallUserWord = "user".fontcolor(red).fontsize(3).sub()
-    const smallCompWord = "comp".fontsize(blue).(3).sub()
+    const smallUserWord = "user".fontcolor("red").fontsize(3).sub()
+    const smallCompWord = "comp".fontcolor("blue").fontsize(3).sub()
     result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} loses ${convertToWord(computerChoice)}${smallCompWord} You lost!`;
 }
 
