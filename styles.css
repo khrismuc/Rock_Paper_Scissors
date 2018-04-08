@@ -14,21 +14,7 @@ header {
     background: white;
     padding: 60px;
 }
-.green-glow {
-    border: 4px solid #4dcc7d;
-    /* horizontal vertical offset and the blur colour */
-    box-shadow: 0 0 10px #31b43a;
-}
 
-.red-glow {
-    border: 4px solid #fc121b;
-    box-shadow: 0 0 10px lightcoral;
-}
-
-.gray-glow {
-    border: 4px solid #464647;
-    box-shadow: 0 0 10px #25292b;
-}
 header > h1 {
     color: #25272E;
     text-align:  center;
@@ -105,4 +91,20 @@ header > h1 {
     font-weight: bold;
     font-size: 20px;
     margin-top: 20px;
+}
+
+.green-glow {
+    border: 4px solid #4dcc7d;
+    /* horizontal vertical offset and the blur colour */
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow {
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px lightcoral;
+}
+
+.gray-glow {
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px #25292b;
 }
