@@ -19,19 +19,24 @@ function getComputerChoice(user, computer) {
 function convertToWord(letter) {
     if (letter === "r") return "Rock";
     if (letter == "p") return "Paper";
-    if (letter == "s") return "Scissors";
+    return "Scissors";
 }
 function win(userChoice, computerChoice) {
     userScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
-    result_p.innerHTML = userChoice + " beats " + computerChoice + ". You win!";
+    const smallUserWord = "user".fontsize(3).sub()
+    const smallCompWord = "comp".fontsize(3).sub()
+    result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} beats ${convertToWord(computerChoice)}${smallCompWord} You win!`;
 }
 
-function lose() {
+function lose(userChoice, computerChoice) {
     computerScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
+    const smallUserWord = "user".fontcolor(red).fontsize(3).sub()
+    const smallCompWord = "comp".fontsize(blue).(3).sub()
+    result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} loses ${convertToWord(computerChoice)}${smallCompWord} You lost!`;
 }
 
 
