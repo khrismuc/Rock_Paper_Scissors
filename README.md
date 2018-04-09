@@ -16,8 +16,11 @@ To be build a simple Rock Paper Scissors App.
 
 
 ## Using the site
+* Basic Rock Paper Scissors game.
+* The game will also monitor your scores.
 
 ### Navigating the site
+* One page web app.
 
 
 
