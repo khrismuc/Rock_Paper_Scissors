@@ -38,12 +38,13 @@ Built by:
 Built using the JavaScript DOM and html and CSS.  
 
 ## Key learning
-
+* 
 
 ## What went well
 
 * Learning about the structure of the DOM.
-* Using JavaScript in a Web App.
+* Using JavaScript, CSS and html in a Web App.
+* Learn't about styling in css.
 
 ## Supporting user stories
 
