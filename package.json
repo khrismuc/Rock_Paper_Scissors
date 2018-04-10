@@ -1,0 +1,22 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "Rock Paper Scissors Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amidabrian51/Rock_Paper_Scissors.git"
+  },
+  "keywords": [
+    "Game"
+  ],
+  "author": "Brian Patterson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amidabrian51/Rock_Paper_Scissors/issues"
+  },
+  "homepage": "https://github.com/amidabrian51/Rock_Paper_Scissors#readme"
+}
