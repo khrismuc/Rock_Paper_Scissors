@@ -1,8 +1,10 @@
+// const express = require('express');
+// var favicon = require('serve-favicon');
 var http = require("http");
 var route = require('./route');
 
-var html;
-
+// var html;
+// app.use(favicon(__dirname + '/public/images/favicon.ico'));
 function onRequest(request, response) {
   if (request.method === 'GET') {
         response.writeHead(200);
@@ -10,5 +12,5 @@ function onRequest(request, response) {
         response.end('');
     } 
 }
-http.createServer(onRequest).listen(3000);
+require("http-server").createServer().listen(3000);
 console.log("Server has started.");

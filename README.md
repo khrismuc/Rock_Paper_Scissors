@@ -13,13 +13,13 @@ To be build a simple Rock Paper Scissors App.
 ## Create the Trello Board
 ![Trello](https://i.imgur.com/7HqWhP5.png)
 [Trello Board](https://trello.com/b/F4Qo6yC3/rock-paper-scissors)
-* click on index.html.
+* Go to localhost:3000 . To visit the site locally.
 
 
 ## Using the site
 * Basic Rock Paper Scissors game.
 * The game will also monitor your scores.
-* Click on index.html to play the game!
+* Go to the [herokuRockPaperScissors](https://brianpat-rock-paper-scissors.herokuapp.com/)
 
 ### Navigating the site
 * One page web app.

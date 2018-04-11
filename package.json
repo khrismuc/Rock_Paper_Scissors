@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/amidabrian51/Rock_Paper_Scissors/issues"
   },
-  "homepage": "https://github.com/amidabrian51/Rock_Paper_Scissors#readme"
+  "homepage": "https://github.com/amidabrian51/Rock_Paper_Scissors#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "http-server": "^0.11.1",
+    "serve-favicon": "^2.5.0"
+  }
 }
